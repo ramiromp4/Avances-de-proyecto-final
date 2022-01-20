@@ -1,0 +1,19 @@
+p{
+   color: red; 
+}
+
+.contenedor{
+    background-color: salmon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    .titulo{
+        color: slateblue;
+    }
+    &:hover{
+        background-color: tomato;
+    }
+}
+@import "./variables/variables";
+
+@import "./utilidades/header";
+
+@import "./secciones/index"
