@@ -1,19 +1,6 @@
-p{
-   color: red; 
-}
+// las variables van siempre arriba de todo//
 
-.contenedor{
-    background-color: salmon;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    .titulo{
-        color: slateblue;
-    }
-    &:hover{
-        background-color: tomato;
-    }
-}
 @import "./variables/variables";
-
 @import "./utilidades/header";
-
+//Todo archivo que no sea el main, se tiene que llamra con _adelante y la exttensión .scss//
 @import "./secciones/index"
