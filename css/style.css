@@ -1,22 +1,26 @@
-p {
-  color: red; }
-
-.contenedor {
-  background-color: salmon;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  .contenedor .titulo {
-    color: slateblue; }
-  .contenedor:hover {
-    background-color: tomato; }
-
 header {
   background-color: grey;
   color: white;
   display: flex;
   justify-content: space-between; }
 
+  .mundo{
+    width: 10%;
+  }
+
 ul {
   display: flex; }
   ul li {
     list-style: none;
     margin: 10px; }
+
+p {
+  color: #272829; }
+
+.contenedor {
+  background-color: #63C346;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .contenedor .titulo {
+    color: #D6F7FF; }
+  .contenedor:hover {
+    background-color: greenyellow; }
