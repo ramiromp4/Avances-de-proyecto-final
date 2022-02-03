@@ -1,0 +1,14 @@
+$textoResaltado: (
+    inicio: blue,
+    sorpresa: brown,
+    beneficio: grey,
+    salud: red,
+
+);
+@each $frases, $color in $textoResaltado {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}

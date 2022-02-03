@@ -1,0 +1,7 @@
+@mixin fontStyle ($color, $tamanio, $peso) {
+    color: $color;
+    font-size: $tamanio;
+    font-weight: $peso;
+    text-decoration: underline;
+    text-transform: capitalize;
+}

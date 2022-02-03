@@ -1,6 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 // las variables van siempre arriba de todo//
 
 @import "./variables/variables";
+@import "./variables/extend";
+@import "./variables/mixins";
+@import "./variables/maps";
+
 @import "./utilidades/header";
 //Todo archivo que no sea el main, se tiene que llamra con _adelante y la exttensión .scss//
-@import "./secciones/index"
+@import "./secciones/index";
+@import "./secciones/inicio";

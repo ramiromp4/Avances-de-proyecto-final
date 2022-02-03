@@ -1,12 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+p {
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold; }
+
+.container .titulo {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline; }
+
+.inicio {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px; }
+
+.sorpresa {
+  color: brown;
+  font-weight: bold;
+  font-size: 20px; }
+
+.beneficio {
+  color: grey;
+  font-weight: bold;
+  font-size: 20px; }
+
+.salud {
+  color: red;
+  font-weight: bold;
+  font-size: 20px; }
+
 header {
-  background-color: grey;
   color: white;
   display: flex;
   justify-content: space-between; }
 
-  .mundo{
-    width: 10%;
-  }
+.mundo {
+  width: 10%; }
 
 ul {
   display: flex; }
@@ -15,7 +48,7 @@ ul {
     margin: 10px; }
 
 p {
-  color: #272829; }
+  color: black; }
 
 .contenedor {
   background-color: #63C346;
@@ -24,3 +57,38 @@ p {
     color: #D6F7FF; }
   .contenedor:hover {
     background-color: greenyellow; }
+
+p {
+  color: black; }
+
+.table {
+  background-color: grey;
+  color: white; }
+  .table .thead {
+    background-color: yellow;
+    color: black; }
+
+.container {
+  background-color: #63C346;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .container .titulo {
+    color: #D6F7FF; }
+  .container:hover {
+    background-color: greenyellow; }
+
+h3 {
+  color: blue;
+  font-size: 36px;
+  font-weight: 350;
+  text-decoration: underline;
+  text-transform: capitalize; }
+
+.main {
+  background-color: #D6F7FF;
+  text-align: center; }
+  .main h2 {
+    color: #63C346;
+    font-size: 48px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: capitalize; }
