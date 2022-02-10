@@ -1,14 +1,34 @@
 p{
+    @extend %estilosParrafo;
     color: black 
  }
- 
- .contenedor{
-     background-color: $verdemantis;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     .titulo{
-         color: $grisilver;
-     }
-     &:hover{
-         background-color: greenyellow;
+.table{
+    background-color: grey;
+    color: white;
+    .thead{
+        background-color: yellow;
+        color: black;
+    }
+}
+
+ .container{
+    background-color: $verdemantis;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    .titulo{
+        @extend %estilosTitulo;
+        color: $grisilver;
+    }
+    &:hover{
+        background-color: greenyellow;
+    }
+ }
+h3{
+    @include fontStyle (blue, 36px, 350)
+}
+ .main{
+     background-color: $cianclaro;
+     text-align: center;
+     h2{
+         @include fontStyle ($verdemantis, 48px, 600);
      }
  }
