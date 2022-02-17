@@ -50,13 +50,37 @@ ul {
 p {
   color: black; }
 
-.contenedor {
+.table {
+  background-color: grey;
+  color: white; }
+  .table .thead {
+    background-color: yellow;
+    color: black; }
+
+.container {
   background-color: #63C346;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  .contenedor .titulo {
+  .container .titulo {
     color: #D6F7FF; }
-  .contenedor:hover {
+  .container:hover {
     background-color: greenyellow; }
+
+h3 {
+  color: blue;
+  font-size: 36px;
+  font-weight: 350;
+  text-decoration: underline;
+  text-transform: capitalize; }
+
+.main {
+  background-color: #D6F7FF;
+  text-align: center; }
+  .main h2 {
+    color: #63C346;
+    font-size: 48px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: capitalize; }
 
 p {
   color: black; }
