@@ -23,7 +23,7 @@ p{
     }
  }
 h3{
-    @include fontStyle (blue, 36px, 350)
+    @include fontStyle ($carbon, 30px, 400);
 }
  .main{
      background-color: $cianclaro;
@@ -32,3 +32,22 @@ h3{
          @include fontStyle ($verdemantis, 48px, 600);
      }
  }
+ footer{
+    background-color: $amarillocadmio;
+    .facebook1{
+        width: 3%;
+    }
+    .instagram1{
+        width: 3%;
+    }
+    .twitter{
+        width: 3%;
+    }
+   
+    p{
+        font-size: large;
+        color: black;
+        font-family: cursive;
+        text-align: center; 
+     }
+}

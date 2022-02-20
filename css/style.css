@@ -36,16 +36,24 @@ p {
 header {
   color: white;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  align-content: center; }
 
 .mundo {
-  width: 10%; }
+  width: 25%; }
 
 ul {
-  display: flex; }
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  align-content: center; }
   ul li {
     list-style: none;
-    margin: 10px; }
+    margin: 10px;
+    text-align: center; }
 
 p {
   color: black; }
@@ -66,9 +74,9 @@ p {
     background-color: greenyellow; }
 
 h3 {
-  color: blue;
-  font-size: 36px;
-  font-weight: 350;
+  color: #364652;
+  font-size: 30px;
+  font-weight: 400;
   text-decoration: underline;
   text-transform: capitalize; }
 
@@ -82,37 +90,19 @@ h3 {
     text-decoration: underline;
     text-transform: capitalize; }
 
-p {
-  color: black; }
+footer {
+  background-color: #FCF300; }
+  footer .facebook1 {
+    width: 3%; }
+  footer .instagram1 {
+    width: 3%; }
+  footer .twitter {
+    width: 3%; }
+  footer p {
+    font-size: large;
+    color: black;
+    font-family: cursive;
+    text-align: center; }
 
-.table {
-  background-color: grey;
-  color: white; }
-  .table .thead {
-    background-color: yellow;
-    color: black; }
-
-.container {
-  background-color: #63C346;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  .container .titulo {
-    color: #D6F7FF; }
-  .container:hover {
-    background-color: greenyellow; }
-
-h3 {
-  color: blue;
-  font-size: 36px;
-  font-weight: 350;
-  text-decoration: underline;
-  text-transform: capitalize; }
-
-.main {
-  background-color: #D6F7FF;
-  text-align: center; }
-  .main h2 {
-    color: #63C346;
-    font-size: 48px;
-    font-weight: 600;
-    text-decoration: underline;
-    text-transform: capitalize; }
+body {
+  background-image: url(fitzroy.jpeg); }

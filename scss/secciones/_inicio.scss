@@ -1,34 +1,3 @@
-p{
-    @extend %estilosParrafo;
-    color: black 
- }
-.table{
-    background-color: grey;
-    color: white;
-    .thead{
-        background-color: yellow;
-        color: black;
-    }
+body{
+    background-image: url(fitzroy.jpeg);
 }
-
- .container{
-    background-color: $verdemantis;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    .titulo{
-        @extend %estilosTitulo;
-        color: $grisilver;
-    }
-    &:hover{
-        background-color: greenyellow;
-    }
- }
-h3{
-    @include fontStyle (blue, 36px, 350)
-}
- .main{
-     background-color: $cianclaro;
-     text-align: center;
-     h2{
-         @include fontStyle ($verdemantis, 48px, 600);
-     }
- }
