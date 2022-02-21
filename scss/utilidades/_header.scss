@@ -1,28 +1,36 @@
 header{
     
+    background-color: $cieloazul;
     color: white;
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
     text-align:left;
-    align-content: center;
-
-}
-
-
-.mundo{
-    width: 25%;
-}
-ul{
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
-    text-align: center;
-    align-content: center;
-
-    li{
-        list-style: none;
-        margin: 10px;
+    
+    
+    ul{
+        
+        display:flex;
+        justify-content:center;
+        align-items:center;
         text-align: center;
+        align-content: center;
+        font-weight: bold;
     }
+        li{
+            color: black;
+            list-style: none;
+            margin: 10px;
+            text-align: center;
+            
+        }
+    .logomundis{
+        width: 20%;
+    }
+}
+
+a{
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }

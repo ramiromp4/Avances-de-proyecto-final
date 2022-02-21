@@ -6,7 +6,7 @@ p{
     background-color: grey;
     color: white;
     .thead{
-        background-color: yellow;
+        background-color: whitesmoke;
         color: black;
     }
 }
@@ -22,8 +22,16 @@ p{
         background-color: greenyellow;
     }
  }
+
+.container-fluid{
+    background-color: $mentamagica;
+}
+
 h3{
     @include fontStyle ($carbon, 30px, 400);
+}
+h4{
+    text-decoration: underline;
 }
  .main{
      background-color: $cianclaro;
@@ -34,14 +42,14 @@ h3{
  }
  footer{
     background-color: $amarillocadmio;
-    .facebook1{
-        width: 3%;
+    .feiscolor{
+        width: 2%;
     }
-    .instagram1{
-        width: 3%;
+    .instacolor{
+        width: 2%;
     }
-    .twitter{
-        width: 3%;
+    .twittercolor{
+        width: 2%;
     }
    
     p{
@@ -49,5 +57,9 @@ h3{
         color: black;
         font-family: cursive;
         text-align: center; 
+     }
+     a{
+         color: black;
+         text-decoration:underline;
      }
 }

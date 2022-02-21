@@ -6,7 +6,7 @@
 p {
   font-size: medium;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: bold; }
+  font-weight: normal; }
 
 .container .titulo {
   font-size: 30px;
@@ -34,26 +34,31 @@ p {
   font-size: 20px; }
 
 header {
+  background-color: #85C7DE;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  text-align: left;
-  align-content: center; }
-
-.mundo {
-  width: 25%; }
-
-ul {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
-  align-content: center; }
-  ul li {
+  text-align: left; }
+  header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-weight: bold; }
+  header li {
+    color: black;
     list-style: none;
     margin: 10px;
     text-align: center; }
+  header .logomundis {
+    width: 20%; }
+
+a {
+  color: black;
+  text-align: center;
+  font-weight: bold; }
 
 p {
   color: black; }
@@ -62,7 +67,7 @@ p {
   background-color: grey;
   color: white; }
   .table .thead {
-    background-color: yellow;
+    background-color: whitesmoke;
     color: black; }
 
 .container {
@@ -73,12 +78,18 @@ p {
   .container:hover {
     background-color: greenyellow; }
 
+.container-fluid {
+  background-color: #B2EDC5; }
+
 h3 {
   color: #364652;
   font-size: 30px;
   font-weight: 400;
   text-decoration: underline;
   text-transform: capitalize; }
+
+h4 {
+  text-decoration: underline; }
 
 .main {
   background-color: #D6F7FF;
@@ -92,17 +103,20 @@ h3 {
 
 footer {
   background-color: #FCF300; }
-  footer .facebook1 {
-    width: 3%; }
-  footer .instagram1 {
-    width: 3%; }
-  footer .twitter {
-    width: 3%; }
+  footer .feiscolor {
+    width: 2%; }
+  footer .instacolor {
+    width: 2%; }
+  footer .twittercolor {
+    width: 2%; }
   footer p {
     font-size: large;
     color: black;
     font-family: cursive;
     text-align: center; }
+  footer a {
+    color: black;
+    text-decoration: underline; }
 
 body {
   background-image: url(fitzroy.jpeg); }
