@@ -1,47 +1,49 @@
-p{
-    @extend %estilosParrafo;
-    color: black 
- }
-.table{
-    background-color: grey;
-    color: white;
-    .thead{
-        background-color: whitesmoke;
-        color: black;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imagenes/fitzroy.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+article{
+    width: 50%;
+    height: 200px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    
+    p{
+        color: #fff;
     }
 }
+h2{
+    width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
 
- .container{
-    background-color: $verdemantis;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    .titulo{
-        @extend %estilosTitulo;
-        color: $grisilver;
-    }
-    &:hover{
-        background-color: greenyellow;
-    }
- }
-
-.container-fluid{
+footer{
     background-color: $mentamagica;
-}
-
-h3{
-    @include fontStyle ($carbon, 30px, 400);
-}
-h4{
-    text-decoration: underline;
-}
- .main{
-     background-color: $cianclaro;
-     text-align: center;
-     h2{
-         @include fontStyle ($verdemantis, 48px, 600);
-     }
- }
- footer{
-    background-color: $amarillocadmio;
     .feiscolor{
         width: 2%;
     }

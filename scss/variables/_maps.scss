@@ -1,8 +1,8 @@
 $textoResaltado: (
-    inicio: blue,
-    sorpresa: brown,
-    beneficio: grey,
-    salud: red,
+    inicio: black,
+    sorpresa: white,
+    beneficio: black,
+    salud: white,
 
 );
 @each $frases, $color in $textoResaltado {

@@ -1,3 +1,65 @@
-body{
-    background-image: url(fitzroy.jpeg);
+p{
+    @extend %estilosParrafo;
+    color: black 
+ }
+.table{
+    background-color: grey;
+    color: white;
+    .thead{
+        background-color: whitesmoke;
+        color: black;
+    }
+}
+
+ .container{
+    background-color: $verdemantis;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    .titulo{
+        @extend %estilosTitulo;
+        color: $opalo;
+    }
+    &:hover{
+        background-color: greenyellow;
+    }
+ }
+
+.container-fluid{
+    background-color: $mentamagica;
+}
+
+h3{
+    @include fontStyle ($carbon, 25px, 400);
+}
+h4{
+    text-decoration: underline;
+}
+ .main{
+     background-color: $cianclaro;
+     text-align: center;
+     h2{
+         @include fontStyle ($verdemantis, 48px, 600);
+     }
+ }
+ footer{
+    background-color: $mentamagica;
+    .feiscolor{
+        width: 2%;
+    }
+    .instacolor{
+        width: 2%;
+    }
+    .twittercolor{
+        width: 2%;
+    }
+   
+    p{
+        font-size: large;
+        color: black;
+        font-family: cursive;
+        text-align: center; 
+     }
+     a{
+         color: black;
+         text-decoration:underline;
+     }
 }
