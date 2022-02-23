@@ -149,7 +149,7 @@ h3 {
   font-size: 25px;
   font-weight: 400;
   text-decoration: underline;
-  text-transform: capitalize; }
+  text-transform: none; }
 
 h4 {
   text-decoration: underline; }
@@ -162,7 +162,7 @@ h4 {
     font-size: 48px;
     font-weight: 600;
     text-decoration: underline;
-    text-transform: capitalize; }
+    text-transform: none; }
 
 footer {
   background-color: #B2EDC5; }
